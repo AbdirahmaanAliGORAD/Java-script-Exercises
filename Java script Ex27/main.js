@@ -13,7 +13,7 @@ function fetchUserData () {
     })
 }
 
-fetchUserData()
+// fetchUserData()
     .then((data) => console.log("user data", data))
 
     .catch((error) => console.log("error", error));

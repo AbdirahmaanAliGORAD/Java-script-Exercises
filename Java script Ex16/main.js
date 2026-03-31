@@ -1,10 +1,12 @@
-let score =50;
+let score =24;
 
-if(score <= 49){
+if(score >= 51){
 
-    console.log("tou are passed");
+    console.log("you are passed");
 
 
+}else if(score >= 25) {
+    console.log("yoy are very failed");
 }else{
-    console.log("yoy are failed");
+    console.log("you are stupid");
 }
