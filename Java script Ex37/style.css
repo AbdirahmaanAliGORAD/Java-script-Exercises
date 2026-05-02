@@ -1,0 +1,94 @@
+
+ body {  
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: #f4f7f6;
+    margin: 0px;
+    padding: 20px;
+    transition: background 0.3s,
+}
+
+
+.blog-container {
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} 
+
+#blog-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius:6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#add-post-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+#add-post-btn:hover{
+    background-color: #0056b3;
+} 
+
+#post-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-theme .blog-container {
+    background-color: #2d2d2d;
+    color: white;
+    box-shadow: 0.5px 15px rgba(0,0,0,0.5);
+}
+
+body.dark-theme .post-item {
+    background-color: #3a3a3a;
+    border-color: #555;
+}
+body.dark-theme input,
+body.dark-theme textarea {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #555;
+} 
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
